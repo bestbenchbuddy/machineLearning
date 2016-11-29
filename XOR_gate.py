@@ -12,7 +12,6 @@ def tanh(x):
 def tanh_prime(x):
     return 1.0 - x**2
 
-
 class NeuralNetwork:
 
     def __init__(self, layers, activation='tanh'):
